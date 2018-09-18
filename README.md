@@ -1,0 +1,2 @@
+# kustomer-code-challenge
+I was assigned a challenge to import data from a spreadsheet into the company’s platform using their API. I downloaded the spreadsheet as a csv file and then imported it into my nodejs application. I then used 'fast-csv' package to make the data readable. Once readable I formatted the data as a JSON object like the api documentation suggests, essentially taking each row and building a customer object. Finally, I used Axios to make a POST request to the endpoint url.
